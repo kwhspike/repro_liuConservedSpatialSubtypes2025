@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large single-cell intermediates (regenerate by running the pipeline)
+*.rds
+*.qs
+*.mtx
+*.mtx.gz
+*.log
+P1_seurat/tenx/
+P2_seurat/tenx/
+P5_seurat/tenx/
+
+# NMF inputs / outputs (regenerate via S4.2 / S4.3b)
+NMF/input/
+NMF/output_CAF/
+
+# Generated tables / figures (regenerate by running the pipeline)
+P1_seurat/*.csv
+P2_seurat/*.csv
+P5_seurat/*.csv
+P1_seurat/*.png
+P2_seurat/*.png
+P5_seurat/*.png
+P1_seurat/*.pdf
+P2_seurat/*.pdf
+P5_seurat/*.pdf
+seurat_integration/*.csv
+seurat_integration/*.png
+seurat_integration/*.pdf
+
+# Local reference only: copyrighted journal graphical abstract, do NOT publish
+ScreenShot_*.png
